@@ -1,6 +1,6 @@
 # DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping
 
-This responsitory is the official implementation of "DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping".
+This responsitory is the official implementation of DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping.
 
 ## Requirements
 
@@ -57,3 +57,10 @@ data
 - The `utils` folder contains some utilities that are used for data loading, normalization, training and evluation.
 
 The specific training and evaluation process can be executed by running the `.ipynb` files in the `expriment` folder.
+
+The hyperparameters for different sites in the paper are set as follows:
+
+| Hyperparameter | Site A | Site B | Site C | Site D | Site E | Site F |
+| --- | --- | --- | --- | --- | --- | --- |
+|Dimension of LSTM hidden features | 256 | 512 | 256 | 512 | 256 | 256 |
+| Number of LSTM layers | 2 | 2 | 2 | 2 | 2 | 3 |
