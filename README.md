@@ -56,7 +56,7 @@ data
 - The PyTorch implementation of DeepCropMapping (DCM) model is located in the `models` folder.
 - The `utils` folder contains some utilities that are used for data loading, normalization, training and evluation.
 
-The specific training and evaluation process can be executed by running the `.ipynb` files in the `expriment` folder.
+The specific training and evaluation process can be executed by running the `.ipynb` files in the `experiment` folder.
 
 The hyperparameters for different sites in the paper are set as follows:
 
