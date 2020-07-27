@@ -15,22 +15,7 @@ Ubuntu 16.04.4 LTS, Python 3.5.2, PyTorch 1.2.0
 
 ## Data
 
-The preprocessed data (`.npy` files) for model training and evaluation is directly available from the corresponding author upon requests. The preprocessed data should be stored in the `preprocessing/out` folder that has the following structure:
-
-```
-preprocessing/out
-├── Site_A
-│   ├── x-2015.npy
-│   ├── y-2015.npy
-│   ├── . . .
-│   ├── x-2018.npy
-│   └── y-2018.npy
-├── Site_B
-├── . . .
-└── Site_F
-```
-
-You can also download raw Landsat Analysis Ready Data (ARD) from [EarthExplore](https://earthexplorer.usgs.gov/) and raw Cropland Data Layer (CDL) from [CropScape](https://nassgeodata.gmu.edu/CropScape/), then follow the code in the `preprocessing` folder to generate the `.npy` files. The raw Landsat ARD and CDL data should be stored in a new `data` folder that has the following structure (specific downloaded file names may change):
+The preprocessed data (`.npy` files) for model training and evaluation is not directly provided here due to the large data volume. You can download raw Landsat Analysis Ready Data (ARD) from [EarthExplore](https://earthexplorer.usgs.gov/) and raw Cropland Data Layer (CDL) from [CropScape](https://nassgeodata.gmu.edu/CropScape/), then follow the code in the `preprocessing` folder to generate the `.npy` files. The raw Landsat ARD and CDL data should be stored in a new `data` folder that has the following structure (specific downloaded file names may change):
 
 ```
 data
@@ -46,6 +31,21 @@ data
 │       ├── CDL_2015_clip_20190409130240_375669680.tif
 │       ├── . . .
 │       └── CDL_2018_clip_20190409125506_12566268.tif
+├── Site_B
+├── . . .
+└── Site_F
+```
+
+The preprocessed data should be stored in the `preprocessing/out` folder that has the following structure:
+
+```
+preprocessing/out
+├── Site_A
+│   ├── x-2015.npy
+│   ├── y-2015.npy
+│   ├── . . .
+│   ├── x-2018.npy
+│   └── y-2018.npy
 ├── Site_B
 ├── . . .
 └── Site_F
