@@ -1,6 +1,6 @@
 # DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping
 
-This responsitory is the official implementation of DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping.
+This repository is the official implementation of DeepCropMapping: A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping.
 
 ## Requirements
 
